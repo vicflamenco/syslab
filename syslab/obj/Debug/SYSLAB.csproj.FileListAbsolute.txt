@@ -1,0 +1,78 @@
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\bin\Debug\SYSLAB.exe.config
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.frmPrincipal.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.Properties.Resources.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.csproj.GenerateResource.Cache
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\bin\Debug\SYSLAB.exe
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\bin\Debug\SYSLAB.pdb
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.exe
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.pdb
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmAgregarPaciente.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmPacientes.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmAgregarDoctor.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmDoctores.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmAgregarCategoria.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmAgregarFamilia.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmClasificacion.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CATALOGO.frmAgregarAnalisis.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CATALOGO.frmCatalogo.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.SOLICITUDES.frmSolicitudes.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\bin\Debug\OutlookGridControl.dll
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmSelDoctor.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmSelPaciente.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.SOLICITUDES.frmAgregarSolicitud.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmResultados.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmAdminResultados.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmResultadoAnalisis.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.frmReporteVisor.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.frmDashboad.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.csprojResolveAssemblyReference.cache
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.COTIZACIONES.frmAgregarCotizacion.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.COTIZACIONES.frmCotizaciones.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAgregarEmpresa.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAgregarSector.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmEmpresas.resources
+C:\Users\KevinG\Documents\Visual Studio 2012\Projects\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAdminSector.resources
+C:\Users\vicfl_000\Desktop\SYSLAB\SYSLAB\bin\Debug\SYSLAB.exe.config
+C:\Users\vicfl_000\Desktop\SYSLAB\SYSLAB\obj\Debug\SYSLAB.exe
+C:\Users\vicfl_000\Desktop\SYSLAB\SYSLAB\obj\Debug\SYSLAB.pdb
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\bin\Debug\SYSLAB.exe.config
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\bin\Debug\SYSLAB.exe
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\bin\Debug\SYSLAB.pdb
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\bin\Debug\OutlookGridControl.dll
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.frmLogin.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CATALOGO.frmAgregarAnalisis.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CATALOGO.frmCatalogo.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmAgregarCategoria.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmAgregarFamilia.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.CLASIFICACION.frmClasificacion.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.COTIZACIONES.frmAgregarCotizacion.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.COTIZACIONES.frmCotizaciones.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmAgregarDoctor.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmDoctores.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.DOCTORES.frmSelDoctor.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAdminSector.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAgregarEmpresa.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAgregarSector.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmAsignarPaciente.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.EMPRESAS.frmEmpresas.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.frmDashboad.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.frmReporteVisor.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmAgregarPaciente.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmPacientes.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.PACIENTES.frmSelPaciente.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.REPORTES.frmReportesVentas.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmAdminResultados.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmResultadoAnalisis.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.RESULTADOS.frmResultados.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.SOLICITUDES.frmAgregarSolicitud.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.SOLICITUDES.frmSolicitudes.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.TALONARIOS.frmAgregarTalonario.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.TALONARIOS.frmControlTalonarios.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.USUARIOS.frmAdminUsuarios.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.VISTA.USUARIOS.frmAgregarUsuario.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.frmPrincipal.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.Properties.Resources.resources
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.csproj.GenerateResource.Cache
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.exe
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.pdb
+C:\Users\vicfl_000\OneDrive\Documentos\Documentos UDB\CICLO II 2014\Ingeniería de Software\P3\SYSLAB\SYSLAB\obj\Debug\SYSLAB.csprojResolveAssemblyReference.cache

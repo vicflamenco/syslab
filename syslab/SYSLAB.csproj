@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A409A43D-9DA6-4FE7-BA70-B484D927EF71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SYSLAB</RootNamespace>
+    <AssemblyName>SYSLAB</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SYSLAB.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="OutlookGridControl">
+      <HintPath>LIBRERIAS\OutlookGridControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MODELO\Administracion.cs" />
+    <Compile Include="MODELO\Datos.cs" />
+    <Compile Include="MODELO\Examenes.cs" />
+    <Compile Include="MODELO\helper.cs" />
+    <Compile Include="MODELO\MD5.cs" />
+    <Compile Include="MODELO\Persistencia.cs" />
+    <Compile Include="DataGridViewProgressCell.cs" />
+    <Compile Include="DataGridViewProgressColumn.cs" />
+    <Compile Include="db.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="dsSysLab.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSysLab.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDownEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sesion.cs" />
+    <Compile Include="TNumEditBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TNumEditDataGridViewElements.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CATALOGO\frmAgregarAnalisis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CATALOGO\frmAgregarAnalisis.Designer.cs">
+      <DependentUpon>frmAgregarAnalisis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CATALOGO\frmCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CATALOGO\frmCatalogo.Designer.cs">
+      <DependentUpon>frmCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmAgregarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmAgregarCategoria.Designer.cs">
+      <DependentUpon>frmAgregarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmAgregarFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmAgregarFamilia.Designer.cs">
+      <DependentUpon>frmAgregarFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmClasificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\CLASIFICACION\frmClasificacion.Designer.cs">
+      <DependentUpon>frmClasificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\COTIZACIONES\frmAgregarCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\COTIZACIONES\frmAgregarCotizacion.Designer.cs">
+      <DependentUpon>frmAgregarCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\COTIZACIONES\frmCotizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\COTIZACIONES\frmCotizaciones.Designer.cs">
+      <DependentUpon>frmCotizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmAgregarDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmAgregarDoctor.Designer.cs">
+      <DependentUpon>frmAgregarDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmDoctores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmDoctores.Designer.cs">
+      <DependentUpon>frmDoctores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmSelDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\DOCTORES\frmSelDoctor.Designer.cs">
+      <DependentUpon>frmSelDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAdminSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAdminSector.Designer.cs">
+      <DependentUpon>frmAdminSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAgregarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAgregarEmpresa.Designer.cs">
+      <DependentUpon>frmAgregarEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAgregarSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAgregarSector.Designer.cs">
+      <DependentUpon>frmAgregarSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAsignarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmAsignarPaciente.Designer.cs">
+      <DependentUpon>frmAsignarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\EMPRESAS\frmEmpresas.Designer.cs">
+      <DependentUpon>frmEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\frmDashboad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\frmDashboad.Designer.cs">
+      <DependentUpon>frmDashboad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\frmReporteVisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\frmReporteVisor.Designer.cs">
+      <DependentUpon>frmReporteVisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmAgregarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmAgregarPaciente.Designer.cs">
+      <DependentUpon>frmAgregarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmPacientes.Designer.cs">
+      <DependentUpon>frmPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmSelPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\PACIENTES\frmSelPaciente.Designer.cs">
+      <DependentUpon>frmSelPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\REPORTES\frmReportesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\REPORTES\frmReportesVentas.Designer.cs">
+      <DependentUpon>frmReportesVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\REPORTES\rptVentaDiaria.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVentaDiaria.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\REPORTES\rptVentaMensual.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVentaMensual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmAdminResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmAdminResultados.Designer.cs">
+      <DependentUpon>frmAdminResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmResultadoAnalisis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmResultadoAnalisis.Designer.cs">
+      <DependentUpon>frmResultadoAnalisis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\frmResultados.Designer.cs">
+      <DependentUpon>frmResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\RESULTADOS\rptResultados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResultados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\SOLICITUDES\frmAgregarSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\SOLICITUDES\frmAgregarSolicitud.designer.cs">
+      <DependentUpon>frmAgregarSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\SOLICITUDES\frmSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\SOLICITUDES\frmSolicitudes.Designer.cs">
+      <DependentUpon>frmSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\TALONARIOS\frmAgregarTalonario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\TALONARIOS\frmAgregarTalonario.Designer.cs">
+      <DependentUpon>frmAgregarTalonario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\TALONARIOS\frmControlTalonarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\TALONARIOS\frmControlTalonarios.Designer.cs">
+      <DependentUpon>frmControlTalonarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\USUARIOS\frmAdminUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\USUARIOS\frmAdminUsuarios.Designer.cs">
+      <DependentUpon>frmAdminUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\USUARIOS\frmAgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA Y CTRL\USUARIOS\frmAgregarUsuario.Designer.cs">
+      <DependentUpon>frmAgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\CATALOGO\frmAgregarAnalisis.resx">
+      <DependentUpon>frmAgregarAnalisis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\CATALOGO\frmCatalogo.resx">
+      <DependentUpon>frmCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\CLASIFICACION\frmAgregarCategoria.resx">
+      <DependentUpon>frmAgregarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\CLASIFICACION\frmAgregarFamilia.resx">
+      <DependentUpon>frmAgregarFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\CLASIFICACION\frmClasificacion.resx">
+      <DependentUpon>frmClasificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\COTIZACIONES\frmAgregarCotizacion.resx">
+      <DependentUpon>frmAgregarCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\COTIZACIONES\frmCotizaciones.resx">
+      <DependentUpon>frmCotizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\DOCTORES\frmAgregarDoctor.resx">
+      <DependentUpon>frmAgregarDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\DOCTORES\frmDoctores.resx">
+      <DependentUpon>frmDoctores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\DOCTORES\frmSelDoctor.resx">
+      <DependentUpon>frmSelDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\EMPRESAS\frmAdminSector.resx">
+      <DependentUpon>frmAdminSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\EMPRESAS\frmAgregarEmpresa.resx">
+      <DependentUpon>frmAgregarEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\EMPRESAS\frmAgregarSector.resx">
+      <DependentUpon>frmAgregarSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\EMPRESAS\frmAsignarPaciente.resx">
+      <DependentUpon>frmAsignarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\EMPRESAS\frmEmpresas.resx">
+      <DependentUpon>frmEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\frmDashboad.resx">
+      <DependentUpon>frmDashboad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\frmReporteVisor.resx">
+      <DependentUpon>frmReporteVisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\PACIENTES\frmAgregarPaciente.resx">
+      <DependentUpon>frmAgregarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\PACIENTES\frmPacientes.resx">
+      <DependentUpon>frmPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\PACIENTES\frmSelPaciente.resx">
+      <DependentUpon>frmSelPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\REPORTES\frmReportesVentas.resx">
+      <DependentUpon>frmReportesVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\REPORTES\rptVentaDiaria.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVentaDiaria.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\REPORTES\rptVentaMensual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVentaMensual.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\RESULTADOS\frmAdminResultados.resx">
+      <DependentUpon>frmAdminResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\RESULTADOS\frmResultadoAnalisis.resx">
+      <DependentUpon>frmResultadoAnalisis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\RESULTADOS\frmResultados.resx">
+      <DependentUpon>frmResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\RESULTADOS\rptResultados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResultados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\SOLICITUDES\frmAgregarSolicitud.resx">
+      <DependentUpon>frmAgregarSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\SOLICITUDES\frmSolicitudes.resx">
+      <DependentUpon>frmSolicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\TALONARIOS\frmAgregarTalonario.resx">
+      <DependentUpon>frmAgregarTalonario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\TALONARIOS\frmControlTalonarios.resx">
+      <DependentUpon>frmControlTalonarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\USUARIOS\frmAdminUsuarios.resx">
+      <DependentUpon>frmAdminUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA Y CTRL\USUARIOS\frmAgregarUsuario.resx">
+      <DependentUpon>frmAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="db.dbml.layout">
+      <DependentUpon>db.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="db.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>db.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSysLab.xsc">
+      <DependentUpon>dsSysLab.xsd</DependentUpon>
+    </None>
+    <None Include="dsSysLab.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSysLab.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSysLab.xss">
+      <DependentUpon>dsSysLab.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Close-Program-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microscope-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1415672128_document.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
